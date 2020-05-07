@@ -1,0 +1,23 @@
+{
+    "name": "Frontendwebkom",
+    "version": "0.0.0",
+    "description": "",
+    "main": "src/server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node src",
+        "lint": "eslint src"
+    },
+    "author": "Steve",
+    "license": "ISC",
+    "devDependencies": {
+        "eslint-config-airbnb-base": "^14.1.0",
+        "eslint-plugin-import": "^2.20.2",
+        "eslint-plugin-vue": "^6.2.2"
+    },
+    "dependencies": {
+        "axios": "^0.19.2",
+        "express": "^4.17.1",
+        "request": "^2.88.2"
+    }
+}
